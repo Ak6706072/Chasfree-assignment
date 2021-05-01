@@ -8,7 +8,7 @@ import "./App.css";
 const allComment = [
   {
     userName: "ashish",
-    commentMsg: "sothing happend",
+    commentMsg: "Some message here commented by the user",
     isAdding: false,
     comment: undefined,
     date: new Date().toDateString(),
@@ -18,22 +18,22 @@ const allComment = [
   {
     uniqueId: crypto.randomBytes(6).toString("hex"),
     userName: "ashish kumar",
-    commentMsg: "nothing happend",
+    commentMsg: "Some message here commented by the user",
     isAdding: false,
     comment: {
       uniqueId: crypto.randomBytes(6).toString("hex"),
       userName: "ashish 1",
-      commentMsg: "sothing happend",
+      commentMsg: "Some message here commented by the user",
       isAdding: false,
       comment: {
         uniqueId: crypto.randomBytes(6).toString("hex"),
         userName: "ashish 2",
-        commentMsg: "sothing happend",
+        commentMsg: "Some message here commented by the user",
         isAdding: false,
         comment: {
           uniqueId: crypto.randomBytes(6).toString("hex"),
           userName: "ashish 3",
-          commentMsg: "sothing happend",
+          commentMsg: "Some message here commented by the user",
           isAdding: false,
           comment: undefined,
           date: new Date().toDateString(),
@@ -51,7 +51,7 @@ const allComment = [
   {
     uniqueId: crypto.randomBytes(6).toString("hex"),
     userName: "ashish",
-    commentMsg: "sothing happend",
+    commentMsg: "Some message here commented by the user",
     isAdding: false,
     comment: undefined,
     date: new Date().toDateString(),
@@ -60,7 +60,7 @@ const allComment = [
   {
     uniqueId: crypto.randomBytes(6).toString("hex"),
     userName: "ashish",
-    commentMsg: "sothing happend",
+    commentMsg: "Some message here commented by the user",
     isAdding: false,
     comment: undefined,
     date: new Date().toDateString(),
@@ -69,37 +69,37 @@ const allComment = [
   {
     uniqueId: crypto.randomBytes(6).toString("hex"),
     userName: "ashish kumar",
-    commentMsg: "nothing happend",
+    commentMsg: "Some message here commented by the user",
     isAdding: false,
     comment: {
       uniqueId: crypto.randomBytes(6).toString("hex"),
       userName: "ashish 1",
-      commentMsg: "sothing happend",
+      commentMsg: "Some message here commented by the user",
       isAdding: false,
       comment: {
         uniqueId: crypto.randomBytes(6).toString("hex"),
         userName: "ashish 2",
-        commentMsg: "sothing happend",
+        commentMsg: "Some message here commented by the user",
         isAdding: false,
         comment: {
           uniqueId: crypto.randomBytes(6).toString("hex"),
           userName: "ashish 3",
-          commentMsg: "sothing happend",
+          commentMsg: "Some message here commented by the user",
           isAdding: false,
           comment: {
             uniqueId: crypto.randomBytes(6).toString("hex"),
             userName: "ashish 3",
-            commentMsg: "sothing happend",
+            commentMsg: "Some message here commented by the user",
             isAdding: false,
             comment: {
               uniqueId: crypto.randomBytes(6).toString("hex"),
               userName: "ashish 3",
-              commentMsg: "sothing happend",
+              commentMsg: "Some message here commented by the user",
               isAdding: false,
               comment: {
                 uniqueId: crypto.randomBytes(6).toString("hex"),
                 userName: "ashish 3",
-                commentMsg: "sothing happend",
+                commentMsg: "Some message here commented by the user",
                 isAdding: false,
                 comment: undefined,
                 date: new Date().toDateString(),
