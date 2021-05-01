@@ -1,0 +1,20 @@
+.dropdown {
+  margin-bottom: 15px;
+  padding: 0px 15px;
+}
+.dropdown::before {
+  content: "Select the user";
+  color: rgb(110, 110, 110);
+  font-weight: bold;
+  padding-right: 15px;
+  font-size: larger;
+}
+.dropdown_users {
+  width: 200px;
+  outline-width: 0px;
+  border: none;
+  padding-left: 5px;
+  font-size: medium;
+  color: black;
+  background-color: white;
+}

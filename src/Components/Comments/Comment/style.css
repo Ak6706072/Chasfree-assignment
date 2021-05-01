@@ -1,0 +1,33 @@
+.comment {
+  background-color: white;
+  margin: 3px 0px;
+  width: 70%;
+}
+
+.comment_header {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 8px;
+  align-items: flex-start;
+}
+.comment_username {
+  color: blue;
+  font-size: small;
+  cursor: pointer;
+}
+.comment_generated_time {
+  padding-left: 10px;
+}
+
+.comment_msg_body {
+  padding-left: 35px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+
+.comment_footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
