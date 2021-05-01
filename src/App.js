@@ -5,6 +5,7 @@ import Comments from "./Components/Comments/Comments";
 import crypto from "crypto";
 import "./App.css";
 
+//dummy comments for evaluating my app
 const allComment = [
   {
     userName: "ashish",
@@ -199,6 +200,8 @@ function App() {
   };
 
   return (
+    <>
+    <small> dummy comment inserting for analysis </small>
     <div className="app">
       <Dropdown userName={userName} setUserName={setUserName} />
       <Textbox
@@ -217,6 +220,7 @@ function App() {
         setCommentMsg={setCommentMsg}
       />
     </div>
+    </>
   );
 }
 
